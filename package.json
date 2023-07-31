@@ -1,0 +1,19 @@
+{
+	"name": "hotwork",
+	"version": "1.0.0",
+	"description": "use for hotwork in nodejs env,file change will be hot upload without restart all app.js ,just reload for the next time when the new user connect ",
+	"main": "index.js",
+	"bin": {
+		"hotwork": "bin/hotwork.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"hotwork",
+		"nodejs",
+		"hotupdate"
+	],
+	"author": "kojie_chen",
+	"license": "ISC"
+}
