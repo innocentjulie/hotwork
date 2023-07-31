@@ -20,3 +20,18 @@
 ### 更新工具包
 
     npm update -g hotwork
+
+### 使用
+
+    导出的module必须要包括`beans`才能使用，其中的`myManager`就是对象的构造函数
+    
+```javascript
+    module.exports = {
+        name: "myModule",
+        beans: [{
+            id: "MyManager",
+            func: MyManager,
+            scope: "singleton"
+        }]
+    };
+```
