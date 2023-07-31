@@ -1,10 +1,14 @@
 {
 	"name": "hotwork",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "use for hotwork in nodejs env,file change will be hot upload without restart all app.js ,just reload for the next time when the new user connect ",
 	"main": "index.js",
 	"bin": {
 		"hotwork": "bin/hotwork.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:innocentjulie/hotwork.git"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
