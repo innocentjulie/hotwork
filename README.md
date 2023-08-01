@@ -21,6 +21,9 @@
 
     npm update -g hotwork
 
+### 删除工具包
+    npm uninstall hotwork -g
+
 ### 使用
 
     导出的module必须要包括`beans`才能使用，其中的`myManager`就是对象的构造函数
